@@ -1,14 +1,13 @@
 import React from 'react';
 import './About.css';
-import about_img from "../../Assets/about.png";
-import play_icon from '../../Assets/play-icon.png';
+import about_img  from '../../Assets/entrepreneurs-meeting-office.jpg';
 
 const About = () => {
   return (
     <div className='about'>
         <div className='about-left'>
          <img src={about_img} alt='' className='about_img' />
-         <img src={play_icon} alt='' className='play_icon' />
+
 
         </div>
         <div className='about-right'>
